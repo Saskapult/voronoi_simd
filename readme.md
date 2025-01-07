@@ -4,7 +4,7 @@ Profiling has revealed my SIMD implementation to be around twice as slow as my n
 
 This project is known to compile on `rustc 1.85.0-nightly (4363f9b6f 2025-01-02)`. 
 
-![](example_noise.png)
+![voronoi noise visualization showing artifacted noise](example_noise.png)
 
 ## Performance
 `voronoi_basic_*` generates noise in individual cells, which involves evaluating the cell's neighbours' centre points. 
